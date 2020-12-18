@@ -3,7 +3,7 @@ A Benchmark Arabic Dataset for Commonsense Explanation
 # Introduction
 Language comprehension and commonsense knowledge validation by machines are challenging tasks that are still under researched and evaluated for Arabic text. In this paper, we present a benchmark Arabic dataset for commonsense explanation. The dataset consists of Arabic sentences that does not make sense along with three choices to select among them the one that explains why the sentence is false. Furthermore, this paper presents baseline results to assist and encourage the future evaluation of research in this field. The dataset is distributed under the Creative Commons CC-BY-SA 4.0 license.
 
-Example
+# Example
 Select the most corresponding reason why this statement is against common sense.
 
 Statement: He put an elephant into the fridge.
@@ -11,7 +11,9 @@ Statement: He put an elephant into the fridge.
 Reasons:
 
 A: An elephant is much bigger than a fridge. (correct)
+
 B: Elephants are usually white while fridges are usually white.
+
 C: An elephant cannot eat a fridge.
 
 # Dataset
