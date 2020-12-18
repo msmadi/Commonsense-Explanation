@@ -1,0 +1,19 @@
+import pandas as pd
+from nltk.translate.bleu_score import sentence_bleu
+
+
+gold_file = "/content/TaskC_gold.txt"
+references = pd.read_table(gold_file)
+reference = references['optionA'].values
+
+predicted = "/content/predicted.csv"
+candidates = pd.read_table(predicted)
+candidate = candidates['pred'].values
+
+score = 0.
+
+for i in range(len(reference)):
+    score += sentence_bleu([reference[i].strip().split()], candidate[i].strip().split())
+
+score /= len(reference)
+print("The bleu score is: "+str(score))
