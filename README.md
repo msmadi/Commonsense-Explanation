@@ -27,7 +27,17 @@ The task is evaluated using accuracy.
 # Citation
 If you find this project helpful, you can cite:
 
-TBA
+Saja AL-Tawalbeh, Mohammad AL-Smadi : A Benchmark Arabic Dataset for Commonsense Explanation, arXiv, 2020
+
+
+@misc{altawalbeh2020benchmark,
+      title={A Benchmark Arabic Dataset for Commonsense Explanation}, 
+      author={Saja AL-Tawalbeh and Mohammad AL-Smadi},
+      year={2020},
+      eprint={2012.10251},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
 # Related Research 
 Is this sentence valid? An Arabic Dataset for Commonsense Validation
