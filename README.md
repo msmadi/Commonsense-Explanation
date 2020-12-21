@@ -27,7 +27,7 @@ The task is evaluated using accuracy.
 # Citation
 If you find this project helpful, you can cite:
 
-Saja AL-Tawalbeh, Mohammad AL-Smadi : A Benchmark Arabic Dataset for Commonsense Explanation, arXiv, 2020
+Saja AL-Tawalbeh, Mohammad AL-Smadi : A Benchmark Arabic Dataset for Commonsense Explanation, arXiv, 2020 [https://arxiv.org/abs/2012.10251]
 
 
 @misc{altawalbeh2020benchmark,
